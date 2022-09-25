@@ -1,0 +1,131 @@
+.item {
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .item-image {
+    height: 300px;
+    width: 100%;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .item-details > .item-price {
+    margin: 0;
+  }
+  
+  /*CARRITO  */
+  .shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
+  
+
+  /*cine*/
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #e0e0e0;
+    color: #1d1d1d;
+  }
+  
+  .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 100px auto;
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+  
+  .contenedor .pelicula {
+    text-align: center;
+  }
+  
+  .contenedor .pelicula .titulo {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .contenedor .pelicula .poster {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  
+  .paginacion {
+    position: fixed;
+    bottom: 0;
+    background: #2a2a2b;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .paginacion button {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background: #af9dc9;
+    color: #fff;
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: .3s ease all;
+  }
+  
+  .paginacion button:hover {
+    background: #137c32;
+  }
+
+  .titulocine{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #137c32;
+    
+  }
